@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import { FaTimes } from "react-icons/fa";
 
 export const SidebarContainer = styled.div`
@@ -15,7 +15,7 @@ export const SidebarContainer = styled.div`
     right: ${({ isOpen }) => (isOpen ? '0' : '-1000px')};
 
     @media screen and (max-width: 400px) {
-        width: 70%;
+        width: 50%;
     }
 `;
 
@@ -70,7 +70,7 @@ export const SideBtnWrap = styled.div`
 export const SidebarRoute = styled(Link)`
     background: #e31837;
     white-space: nowrap;
-    padding: 16px 64px;
+    padding: 16px 30px;
     color: #fff;
     font-size: 16px;
     outline: none;

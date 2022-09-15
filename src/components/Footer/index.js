@@ -1,6 +1,6 @@
 import React from 'react'
 import './FooterElements';
-import { FaPhoneSquareAlt, FaInstagram, FaPaperPlane, FaYoutube } from 'react-icons/fa'
+import { FaEnvelope, FaInstagram,  FaYoutube,FaWhatsapp } from 'react-icons/fa'
 import { FooterContainer, FooterWrap, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, Copyrights } from './FooterElements';
 
 const Footer = () => {
@@ -11,20 +11,22 @@ const Footer = () => {
                 <SocialLogo to='/'>Contact Us</SocialLogo>
                 <SocialIcons>
                     <SocialIconLink href='/' target='_blank' aria-label="Facebook" rel="noopener noreferrer" >
-                        <FaPhoneSquareAlt />
+                        <FaEnvelope />
                     </SocialIconLink>
-                    <SocialIconLink href='/' target='_blank' aria-label="Instagram" rel="noopener noreferrer" >
+                    <SocialIconLink href='https://www.instagram.com/yantra2k22/' target='_blank' aria-label="Instagram" rel="noopener noreferrer" >
                         <FaInstagram />
                     </SocialIconLink>
-                    <SocialIconLink href='/' target='_blank' aria-label="Youtube" rel="noopener noreferrer" >
+                    <SocialIconLink href='https://youtube.com/channel/UC6lO9dLtrumz35dENb6v0kw' target='_blank' aria-label="Youtube" rel="noopener noreferrer" >
                         <FaYoutube />
                     </SocialIconLink>
-                    <SocialIconLink href='/' target='_blank' aria-label="Twitter" rel="noopener noreferrer" >
-                        <FaPaperPlane />
+                    <SocialIconLink href='/' target='_blank' aria-label="whatsapp" rel="noopener noreferrer" >
+                        <FaWhatsapp />
                     </SocialIconLink>
                 </SocialIcons>
             </SocialMedia>
             <hr />
+    
+
             <Copyrights>&#64; 2022 Copyright Yantra2k22.com All Rights Reserved</Copyrights>
         </FooterWrap>
     </FooterContainer>

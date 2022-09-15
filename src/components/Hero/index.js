@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
+import { Link } from 'react-scroll';
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
-import {HeroContainer, HeroContent, HeroItems, HeroH1, HeroP, HeroBtn} from './HeroElements';
+import {HeroContainer, HeroContent, HeroItems, HeroH1,  HeroBtn} from './HeroElements';
 
 const Hero = () => {
 
@@ -19,7 +20,7 @@ const Hero = () => {
             <HeroContent>
               <HeroItems>
                 <HeroH1>Man made by Mechanism. World ruled by Mechanicals</HeroH1>
-                <HeroBtn>View More!!</HeroBtn>
+                <Link activeClass="active"  to='Workshops' spy={true} smooth={true} duration={1000}><HeroBtn>View More!!</HeroBtn></Link>
               </HeroItems>
             </HeroContent>
         </HeroContainer>

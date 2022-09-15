@@ -44,7 +44,8 @@ export const HeroItems = styled.div`
 export const HeroH1 = styled.h1`
     
     font-size: clamp(1.5rem, 4.1vw, 4rem);
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Lobster', cursive;
+    left:10%;
 `;
 
 

@@ -5,7 +5,11 @@ export const ProductsContainer = styled.div`
     overflow-x: hidden;
     min-height: 100vh;
     padding: 3rem calc((100vw - 1300px)/2);
-    background: #38352c;
+    background: #00F260;  
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);
+    background: linear-gradient(to right, #0575E6, #00F260); 
+    
+
 
     color: #fff;
 `;
