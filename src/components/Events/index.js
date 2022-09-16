@@ -6,7 +6,7 @@ render() {
   return (
     <ProductsContainer id='Events'>
         <ProductsHeading>Technical Events</ProductsHeading>
-        <ProductsPara>dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</ProductsPara>
+        <ProductsPara>"Every enterprise is learning and teaching institution. Training and development must be built into it on all levels, training, and development that never stop."</ProductsPara>
         <ProductWrapper>
                     <ProductCard>
                         <ProductImg src={require("../../images/paper.jpg")} alt="image" />
@@ -20,7 +20,7 @@ render() {
                                     <li> It was popularised in the 1960s with the release</li>
                                 </ul>
                             </ProductDesc>
-                            <ProductButton onClick={()=>{window.open('https://stackoverflow.com/', '_blank') }}>Register!</ProductButton>
+                            <ProductButton onClick={()=>{window.open('https://forms.gle/LJfRocpGjc6BYArY7', '_blank') }}>Register!</ProductButton>
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
@@ -35,7 +35,7 @@ render() {
                                     <li> It was popularised in the 1960s with the release</li>
                                 </ul>
                             </ProductDesc>
-                            <ProductButton>Register!</ProductButton>
+                            <ProductButton onClick={()=>{window.open('https://forms.gle/LJfRocpGjc6BYArY7', '_blank') }}>Register!</ProductButton>
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
@@ -50,11 +50,11 @@ render() {
                                     <li> It was popularised in the 1960s with the release</li>
                                 </ul>
                             </ProductDesc>
-                            <ProductButton>Register!</ProductButton>
+                            <ProductButton onClick={()=>{window.open('https://forms.gle/LJfRocpGjc6BYArY7', '_blank') }}>Register!</ProductButton>
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
-                        <ProductImg src={require("../../images/cultural1.jpg")} alt="image" />
+                        <ProductImg src={require("../../images/cultural1.jpeg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>💫Cultural Night 💥</ProductTitle>
                             <ProductPrice>fee: Rs.100/-</ProductPrice>
@@ -78,7 +78,7 @@ render() {
                                     <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
                                     <li> It was popularised in the 1960s with the release</li>
                                 </ul></ProductDesc>
-                            <ProductButton>Register!</ProductButton>
+                            <ProductButton onClick={()=>{window.open('https://forms.gle/LJfRocpGjc6BYArY7', '_blank') }}>Register!</ProductButton>
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
@@ -91,7 +91,7 @@ render() {
                                     <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
                                     <li> It was popularised in the 1960s with the release</li>
                                 </ul></ProductDesc>
-                            <ProductButton>Register!</ProductButton>
+                            <ProductButton onClick={()=>{window.open('https://forms.gle/LJfRocpGjc6BYArY7', '_blank') }}>Register!</ProductButton>
                         </ProductInfo>
                     </ProductCard>
                 

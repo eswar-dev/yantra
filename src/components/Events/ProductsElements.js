@@ -5,8 +5,6 @@ export const ProductsContainer = styled.div`
     overflow-x: hidden;
     min-height: 100vh;
     padding: 3rem calc((100vw - 1300px)/2);
-    background: #3D7EAA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);
     background: linear-gradient(to right, #FFE47A, #3D7EAA);
     font-weight:40%;
 
@@ -29,13 +27,13 @@ export const ProductCard = styled.div`
     border: solid 1px #fff;
     border-radius: 0.2rem;
     padding: 10px 10px 0px 10px;
-    background: rgb(205,205,207);
     background: linear-gradient(90deg, rgba(205,205,207,1) 0%, rgba(234,245,249,1) 100%);
 `;
 
 export const ProductImg = styled.img`
     height: 250px;
     min-width: 270px;
+    object-fit:cover;
     margin-left: 0px;
     max-width: 100%;
     border-radius: 0.4rem;

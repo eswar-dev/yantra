@@ -11,7 +11,7 @@ const Sliderimages = () => {
         <div className="card">
           <img src={require("../../images/1Fest.jpeg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k12</h5>
+            <h5 className="card-title">Yantra 2k19</h5>
             
           </div>
         </div>
@@ -25,7 +25,7 @@ const Sliderimages = () => {
         <div className="card d-none d-md-block">
           <img src={require("../../images/2Fest.jpeg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k14</h5>
+            <h5 className="card-title">Yantra 2k19</h5>
             
           </div>
         </div>
@@ -36,14 +36,14 @@ const Sliderimages = () => {
         <div className="card">
           <img src={require("../../images/3Fest.jpg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k15</h5>
+            <h5 className="card-title">Yantra 2k19</h5>
             
           </div>
         </div>
         <div className="card d-none d-md-block">
           <img src={require("../../images/4Fest.jpg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k15</h5>
+            <h5 className="card-title">Yantra 2k18</h5>
             
           </div>
         </div>
@@ -61,21 +61,21 @@ const Sliderimages = () => {
         <div className="card">
           <img src={require("../../images/6Fest.jpg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k13</h5>
+            <h5 className="card-title">Yantra 2k18</h5>
             
           </div>
         </div>
         <div className="card d-none d-md-block">
           <img src={require("../../images/7Fest.jpg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k15</h5>
+            <h5 className="card-title">Yantra 2k17</h5>
             
           </div>
         </div>
         <div className="card d-none d-md-block">
           <img src={require("../../images/8Fest.jpg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k14</h5>
+            <h5 className="card-title">Yantra 2k17</h5>
             
           </div>
         </div>
@@ -86,21 +86,21 @@ const Sliderimages = () => {
         <div className="card">
           <img src={require("../../images/9Fest.jpg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k14</h5>
+            <h5 className="card-title">Yantra 2k17</h5>
             
           </div>
         </div>
         <div className="card d-none d-md-block">
           <img src={require("../../images/10Fest.jpeg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k13</h5>
+            <h5 className="card-title">Yantra 2k16</h5>
             
           </div>
         </div>
         <div className="card d-none d-md-block">
           <img src={require("../../images/11Fest.jpg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k15</h5>
+            <h5 className="card-title">Yantra 2k16</h5>
             
           </div>
         </div>
@@ -118,7 +118,7 @@ const Sliderimages = () => {
           <div className="card d-none d-md-block">
             <img src={require("../../images/13Fest.jpg")} className="card-img-top" alt="..."/>
             <div className="card-body">
-              <h5 className="card-title">Yantra 2k15</h5>
+              <h5 className="card-title">Yantra 2k19</h5>
               
             </div>
           </div>

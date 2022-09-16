@@ -6,13 +6,15 @@ render() {
   return (
     <ProductsContainer id='Workshops'>
         <ProductsHeading>Workshops</ProductsHeading>
-        <ProductsPara>dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</ProductsPara>
+        <ProductsPara>“Learning and innovation go hand in hand. The arrogance of success is to think that what you did yesterday will be sufficient for tomorrow.”
+
+William Pollard</ProductsPara>
         <ProductWrapper>
                     <ProductCard>
                         <ProductImg src={require("../../images/gdt.jpg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>GD&T</ProductTitle>
-                            <ProductPrice>Price: Rs.500/-</ProductPrice>
+                            <ProductPrice>fee: Rs.500/-</ProductPrice>
                             <ProductDesc>
                             <ul style={{textAlign: 'left'}}>
                                     <li>A system for defining and communicating design intent and engineering tolerances </li>
@@ -21,14 +23,14 @@ render() {
                                 
                                 </ul>
                             </ProductDesc>
-                            <ProductButton>Register!</ProductButton>
+                            <ProductButton onClick={()=>{window.open('https://forms.gle/L6Z3N2qhswbLDHkV8', '_blank') }}>Register!</ProductButton>
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
                         <ProductImg src={require("../../images/vehicle.jpg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>Vehicle Diagnosis</ProductTitle>
-                            <ProductPrice>Price: Rs.500/-</ProductPrice>
+                            <ProductPrice>fee Rs.500/-</ProductPrice>
                             <ProductDesc>
                             <ul style={{textAlign: 'left'}}>
                                     <li>The mechanics involved with identifying and assessing problems that may negatively affect nominal operation of vehicle </li>
@@ -36,7 +38,7 @@ render() {
                                 
                                 </ul>
                             </ProductDesc>
-                            <ProductButton>Register!</ProductButton>
+                            <ProductButton onClick={()=>{window.open('https://forms.gle/L6Z3N2qhswbLDHkV8', '_blank') }}>Register!</ProductButton>
                         </ProductInfo>
                     </ProductCard>
           
