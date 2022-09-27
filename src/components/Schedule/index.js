@@ -12,7 +12,7 @@ const Schedule = () => {
     style={{background: "linear-gradient(to right, #EAECC6, #2BC0E4)" }}>
     <div id='scheduleId'>
       <div   style={{textAlign:'center'}} className='scheduleHeading'>
-        <h1>Schedule</h1>
+        <h1>...Agenda...</h1>
       </div>
 
 
@@ -116,7 +116,7 @@ const Schedule = () => {
     className="vertical-timeline-element--education"
     contentStyle={{  color: '#000' }}
     date="10:45AM=1PM"
-    iconStyle={{ background: '#FFFF6', color: '#fff' }}
+    iconStyle={{ background: 'yellow', color: '#fff' }}
     icon={<FaPaperPlane/>}
   >
     <h3 className="vertical-timeline-element-title">Workshop Session -4</h3>

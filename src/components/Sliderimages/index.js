@@ -66,9 +66,9 @@ const Sliderimages = () => {
           </div>
         </div>
         <div className="card d-none d-md-block">
-          <img src={require("../../images/7Fest.jpg")} className="card-img-top" alt="..."/>
+          <img src={require("../../images/2008.jpg")} className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title">Yantra 2k17</h5>
+            <h5 className="card-title">Yantra 2k08</h5>
             
           </div>
         </div>

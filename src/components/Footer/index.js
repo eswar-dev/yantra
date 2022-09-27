@@ -11,7 +11,7 @@ const Footer = () => {
                 <SocialLogo to='/'>Contact Us</SocialLogo>
                 <SocialIcons>
                     <SocialIconLink href='/' target='_blank' aria-label="Facebook" rel="noopener noreferrer" >
-                        <FaEnvelope />
+                        <FaEnvelope onClick={()=>window.open(`mailto:yantra2k22@gmail.com`,`_blank`)}/>
                     </SocialIconLink>
                     <SocialIconLink href='https://www.instagram.com/yantra2k22/' target='_blank' aria-label="Instagram" rel="noopener noreferrer" >
                         <FaInstagram />
@@ -20,7 +20,9 @@ const Footer = () => {
                         <FaYoutube />
                     </SocialIconLink>
                     <SocialIconLink href='/' target='_blank' aria-label="whatsapp" rel="noopener noreferrer" >
-                        <FaWhatsapp />
+                        <FaWhatsapp onClick={()=>{alert("whatsapp To:96182715515 after copying number hit okay...")
+                    window.location.href = "https://api.whatsapp.com/send?phone=``"
+                    }}/>
                     </SocialIconLink>
                 </SocialIcons>
             </SocialMedia>

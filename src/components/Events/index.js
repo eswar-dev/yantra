@@ -5,7 +5,7 @@ export default class Events extends Component {
 render() {
   return (
     <ProductsContainer id='Events'>
-        <ProductsHeading>Technical Events</ProductsHeading>
+        <ProductsHeading>...Technical Events...</ProductsHeading>
         <ProductsPara>"Every enterprise is learning and teaching institution. Training and development must be built into it on all levels, training, and development that never stop."</ProductsPara>
         <ProductWrapper>
                     <ProductCard>

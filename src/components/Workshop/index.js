@@ -5,7 +5,7 @@ export default class Workshop extends Component {
 render() {
   return (
     <ProductsContainer id='Workshops'>
-        <ProductsHeading>Workshops</ProductsHeading>
+        <ProductsHeading>...Workshops...</ProductsHeading>
         <ProductsPara>“Learning and innovation go hand in hand. The arrogance of success is to think that what you did yesterday will be sufficient for tomorrow.”
 
 William Pollard</ProductsPara>
